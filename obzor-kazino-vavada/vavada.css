@@ -1,0 +1,64 @@
+thead,
+tfoot{background-color:#3f87a6;color:#fff;}
+tbody{background-color:#e4f0f5;}
+.table-kazino{border-collapse:collapse;border:2px solid rgb(200,200,200);letter-spacing:1px;font-family:sans-serif;font-size:16px;width:100%;}
+td,
+th{border:1px solid rgb(190,190,190);padding:5px 10px;}
+td{text-align:center;}
+.table-vavada{border-collapse:collapse;border:2px solid rgb(251,251,251);letter-spacing:1px;font-size:16px;width:100%;}
+.caption{padding:10px;caption-side:bottom;font-size:14px;}
+.text_slots{color:#17eada}
+.text_live{color:#de593e}
+.text_casino{color:#6ef770}
+.text_tournament{color:#e8ce3a}
+.nav-categories{width:100%}
+.nav-categories_list{display:flex;width:inherit;list-style:none}
+.nav-categories_item.x_slots{color:#17eada}
+.nav-categories_item.x_slots .nav-categories_img{background-image:url(https://bonus-bezdep.net/ru/obzor-kazino-vavada/icon_slots.svg)}
+.nav-categories_item.x_live{color:#de593e}
+.nav-categories_item.x_live .nav-categories_img{background-image:url(https://bonus-bezdep.net/ru/obzor-kazino-vavada/icon_live.svg)}
+.nav-categories_item.x_casino{color:#6ef770}
+.nav-categories_item.x_casino .nav-categories_img{background-image:url(https://bonus-bezdep.net/ru/obzor-kazino-vavada/icon_casino.svg)}
+.nav-categories_item.x_tournament{color:#e8ce3a}
+.nav-categories_item.x_tournament .nav-categories_img{background-image:url(https://bonus-bezdep.net/ru/obzor-kazino-vavada/icon_tournament.svg)}
+.nav-categories_link{display:block;width:100%;font-size:16px;font-weight:800;font-family:Muller,sans-serif;text-transform:uppercase;text-decoration:none;cursor:pointer}
+.nav-categories_content{display:flex;align-items:center;justify-content:center;box-sizing:border-box}
+.nav-categories_img-wrapper{display:flex;align-items:center;justify-content:flex-end;margin-right:10px;height:inherit;width:50px}
+.nav-categories_img{height:inherit;width:40px;background-repeat:no-repeat;background-size:contain;background-position:50%}
+.nav-categories_text{overflow:hidden;text-overflow:ellipsis;display:inline-block;box-sizing:border-box;max-height:100%;max-width:70%;white-space:nowrap}
+label{font-family:sans-serif;font-size:1rem;padding-right:10px;}
+select{font-size:.9rem;padding:2px 5px;}
+.button{background-color:#4CAF50;/* Green */
+border:none;color:white;padding:15px 20px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;cursor:pointer;-webkit-transition-duration:0.4s;/* Safari */
+transition-duration:0.4s;}
+.button1{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}
+.button2:hover{box-shadow:0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+.games{margin:25px 25px 25px 25px;}
+.games-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.games-wrapper__item{overflow:hidden;width:14.2%;margin-bottom:15px;-webkit-transition:opacity .7s;transition:opacity .7s;position:relative;transition:opacity .7s;}
+.games-wrapper__item:hover{-webkit-transition:opacity .7s;transition:opacity .7s;}
+.games-wrapper__item:hover::before{content:'';position:absolute;background:#000000;opacity:0.5;left:0;top:0;bottom:0;right:0;border-radius:3px;-webkit-transition:opacity .7s;transition:opacity .7s;}
+.games-wrapper__item:hover .games-wrapper__info{opacity:1;-webkit-transition:opacity .7s;transition:opacity .7s;}
+.games-wrapper__item img{border-radius:3px;}
+.games-wrapper__info{-webkit-transition:opacity .7s;transition:opacity .7s;opacity:0;min-width:200px;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);text-align:center;cursor:pointer;}
+.games-wrapper__title{display:block;color:#fff;font-size:15px;font-weight:500;}
+.games-wrapper__btn-play{background-color:#3DAA45;padding:10px;border-radius:25px;display:block;color:#000;font-weight:600;font-size:16px;margin:12px 0;border:1px solid transparent;-webkit-transition:background-color .3s;transition:background-color .3s;}
+.games-wrapper__btn-play:hover{-webkit-transition:background-color .3s;transition:background-color .3s;border-color:#3DAA45;background-color:#000000;color:#3DAA45;}
+.games-wrapper__demo{color:#ffffff;border-bottom:1px solid #ffffff;}
+@media screen and (max-width:1696px){.games-wrapper__item{width:16.6%;}
+}
+@media screen and (max-width:1470px){.games-wrapper__item{width:20%;}
+}
+@media screen and (max-width:1416px){.settings-wrapper__item{width:25%;}
+}
+@media screen and (max-width:1244px){.games-wrapper__item{width:25%;}
+}
+@media screen and (max-width:1199px){.header-wrapper__wrp-top{padding:10px 0;}
+}
+@media screen and (max-width:1194px){.settings-wrapper__item{width:33%;}
+.settings-wrapper__item > a{font-size:14px;}
+}
+@media screen and (max-width:1145px){.header-wrapper__wrp-bottom{padding-left:0;}
+}
+@media screen and (max-width:992px){.games-wrapper__item{width:33.3%;}
+}
